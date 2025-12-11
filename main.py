@@ -76,8 +76,6 @@ def monarchs(e):
     
     info = [desc, time, loc, mod, members, categ] #list of information about club
 
-    information = dict(zip(info_title, info)) # combining ang covnerting lists into a dictionary
-
     multi = f"""
     {info_title[0]}:  {desc}
     {info_title[1]}: {time}
@@ -103,8 +101,6 @@ def commarts(e):
     categ = 'academic'
     
     info = [desc, time, loc, mod, members, categ]
-
-    information = dict(zip(info_title, info))
 
     multi = f"""
     {info_title[0]}:  {desc}
@@ -132,8 +128,6 @@ def art(e):
     
     info = [desc, time, loc, mod, members, categ]
 
-    information = dict(zip(info_title, info))
-
     multi = f"""
     {info_title[0]}:  {desc}
     {info_title[1]}: {time}
@@ -160,8 +154,6 @@ def science(e):
     
     info = [desc, time, loc, mod, members, categ]
 
-    information = dict(zip(info_title, info))
-
     multi = f"""
     {info_title[0]}:  {desc}
     {info_title[1]}: {time}
@@ -187,8 +179,6 @@ def math(e):
     categ = 'academic'
     
     info = [desc, time, loc, mod, members, categ]
-
-    information = dict(zip(info_title, info))
 
     multi = f"""
     {info_title[0]}:  {desc}
